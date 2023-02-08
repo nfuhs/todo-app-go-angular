@@ -11,7 +11,7 @@ var (
 	list []Todo
 
 	mtx  sync.RWMutex
-	once synx.Once
+	once sync.Once
 )
 
 func init() {
